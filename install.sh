@@ -1,4 +1,12 @@
 #!/bin/bash
+sudo apt-get install toilet
+sudo apt-get install figlet
+clear
+toilet --metal  WENUM 
+echo v1
+sleep 2
+
+
 printf "\e Do you have Go and Sublist3r installed (y) or (n)?...: $answer"
 read answer
 if [ $answer == n ];
@@ -18,8 +26,6 @@ then
    sudo apt-get upgrade
    sudo apt-get clean
    sudo apt-get autoclean
-   sudo apt-get install figlet
-   sudo apt-get install amass
    sudo apt-get install toilet
    go get -u github.com/tomnomnom/assetfinder
    go get -v github.com/projectdiscovery/subfinder
