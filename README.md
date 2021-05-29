@@ -17,7 +17,7 @@ Wenum🌌 is a combination of enumeration tools which are already available.
 
 # What does Wenum🌌 do?
 
-Once entered a domain subdomains are enumerated and sorted and saved in a file .
+Once entered a domain Wenum checks if its alive, if yes subdomains are enumerated and sorted and saved in a file else returns enter a valid domain name.
 
 Subdomains are filtered based on status codes.
 Alive Subdomains are sent for URL enumeration.
