@@ -26,7 +26,6 @@ URLs containing parameters are seperated
 Vulnerable parameters for following bugs are seperated individually based on their names
 
     1. Cross Site Scripting (XSS)
-    
     2. SQL Injection 
     3. OS Command Injection
     4. Remote Code Execution (RCE)
