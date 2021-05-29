@@ -5,6 +5,7 @@ While testing a website our option after Reconnaissance would be Scanning/Enumer
 Wenum🌌 is a combination of enumeration tools which are already available.
 
 # Tools used in Wenum🌌
+
 1. Sublist3r
 2. AssetFinder
 3. Subfinder
@@ -14,7 +15,16 @@ Wenum🌌 is a combination of enumeration tools which are already available.
 7. ParamSpider
 
 # What does Wenum🌌 do?
+
 Once entered a domain subdomains are enumerated and sorted and saved in a file 
 Subdomains are filtered based on status codes
 Alive Subdomains are sent for URL enumeration
+URLs containing parameters are seperated
+Vulnerable parameters for following bugs are seperated individually based on their names
+    1. Cross Site Scripting (XSS)
+    2. SQL Injection 
+    3. OS Command Injection
+    4. Remote Code Execution (RCE)
+    5. Open Redirection
+
  
