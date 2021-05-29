@@ -6,6 +6,9 @@ toilet --metal  WENUM
 printf "                               \e v1.0\n"
 echo "Coded By G S Nagendran"
 sleep 2
+clear
+toilet --metal WENUM
+printf "\n"
 
 
 printf "\e \n Do you have Go and Sublist3r installed (y) or (n)?...: $answer"
