@@ -44,3 +44,14 @@ else
    printf "\eInvalid Option...!\n"
    exit
 fi
+chmod a+rwx wenum.sh
+sudo cp wenum.sh /usr/bin/wenum
+clear
+oilet --metal  WENUM 
+printf "                               \e v1.0\n"
+echo "Coded By G S Nagendran"
+sleep 2
+clear
+toilet --metal WENUM
+printf "\n"
+printf " Run by typing wenum in your terminal... :) \n" 
