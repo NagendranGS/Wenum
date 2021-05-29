@@ -3,11 +3,12 @@ sudo apt-get install toilet
 sudo apt-get install figlet
 clear
 toilet --metal  WENUM 
-echo v1
+printf "                               \e v1.0\n"
+echo "Coded By G S Nagendran"
 sleep 2
 
 
-printf "\e Do you have Go and Sublist3r installed (y) or (n)?...: $answer"
+printf "\e \n Do you have Go and Sublist3r installed (y) or (n)?...: $answer"
 read answer
 if [ $answer == n ];
 then
