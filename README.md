@@ -6,13 +6,14 @@ Wenum🌌 is a combination of enumeration tools which are already available.
 
 # Tools used in Wenum🌌\n
 
-\n1. Sublist3r
-2. AssetFinder\n
-3. Subfinder
-4. httpx
-5. GAU
-6. WAYBACKURLS
-7. ParamSpider
+1. Sublist3r
+
+3. AssetFinder
+4. Subfinder
+5. httpx
+6. GAU
+7. WAYBACKURLS
+8. ParamSpider
 
 # What does Wenum🌌 do?
 
