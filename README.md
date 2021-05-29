@@ -4,7 +4,7 @@ While testing a website our option after Reconnaissance would be Scanning/Enumer
 
 Wenum🌌 is a combination of enumeration tools which are already available.
 
-# Tools used in Wenum🌌\n
+# Tools used in Wenum🌌
 
 1. Sublist3r
 3. AssetFinder
