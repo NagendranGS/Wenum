@@ -4,14 +4,14 @@ While testing a website our option after Reconnaissance would be Scanning/Enumer
 
 # Tools used in Wenum🌌
 
-1. Sublist3r
-3. AssetFinder
-4. Subfinder
-5. Nmap
-6. httpx
-7. GAU
-8. WayBackURLs
-9. ParamSpider
+1. Sublist3r - https://github.com/aboul3la/Sublist3r
+3. AssetFinder - https://github.com/tomnomnom/assetfinder
+4. Subfinder - https://github.com/projectdiscovery/subfinder
+5. Nmap - https://nmap.org/
+6. httpx - https://github.com/projectdiscovery/httpx
+8. GAU - https://github.com/lc/gau
+9. WayBackURLs - https://github.com/tomnomnom/waybackurls
+10. ParamSpider - https://github.com/devanshbatham/ParamSpider
 
 # What does Wenum🌌 do?
 
@@ -34,3 +34,6 @@ Vulnerable parameters for following bugs are seperated individually based on the
     
 
 Wenum asks the user at each stage whether to perform the processes mentioned above or to exit.
+So that one can exit the process if the enumerated results are enough.
+
+
