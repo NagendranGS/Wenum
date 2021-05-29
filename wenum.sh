@@ -1,9 +1,12 @@
 #!/bin/sh
 
-clear
-figlet "Subdomain Enumeration"
-echo "coded by G S Nagendran"
+toilet --metal  WENUM 
+printf "                               \e v1.0\n"
+echo "Coded By G S Nagendran"
 sleep 2
+clear
+toilet --metal WENUM
+printf "\n"
 
 printf "\e[1;77m Tools Used #Sublist3r #AssetFinder #Subfinder \e[0m \n"
 echo "$(date '+%D %T' | toilet -f term -F border --gay)"
