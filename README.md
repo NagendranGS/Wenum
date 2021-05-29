@@ -17,11 +17,11 @@ Wenum🌌 is a combination of enumeration tools which are already available.
 
 # What does Wenum🌌 do?
 
-Once entered a domain subdomains are enumerated and sorted and saved in a file 
+Once entered a domain subdomains are enumerated and sorted and saved in a file .
 
-Subdomains are filtered based on status codes
-Alive Subdomains are sent for URL enumeration
-URLs containing parameters are seperated
+Subdomains are filtered based on status codes.
+Alive Subdomains are sent for URL enumeration.
+URLs containing parameters are seperated.
 
 Vulnerable parameters for following bugs are seperated individually based on their names
 
