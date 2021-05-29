@@ -7,12 +7,11 @@ Wenum🌌 is a combination of enumeration tools which are already available.
 # Tools used in Wenum🌌\n
 
 1. Sublist3r
-
 3. AssetFinder
 4. Subfinder
 5. httpx
 6. GAU
-7. WAYBACKURLS
+7. WayBackURLs
 8. ParamSpider
 
 # What does Wenum🌌 do?
