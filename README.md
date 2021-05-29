@@ -1,6 +1,6 @@
 # Wenum - Website Enumeration 🌌
 
-While testing a website it is important to perform Scanning/Enumeration. We have our very own checklist of tools to perform active enumeration on websites. Since time management is a crucial part while Pentesting a website , Wenum provides a hassle free experience. Opening each tool, running enumeration ,saving it in a file and filtering for different types of vulnerability testing made me a bit lazy. All I wish is to enter a domain name and every process involved in enumeration comes handy. Thus I made Wenum.
+While testing a website it is important to perform Scanning/Enumeration. We all may have our own checklist of tools to perform active enumeration on websites. Since time management is a crucial part while Pentesting a website , Wenum provides a hassle free experience. Opening each tool, running enumeration ,saving it in a file and filtering for different types of vulnerability testing made me a bit lazy. All I wish is to enter a domain name and every process involved in enumeration comes handy. Thus I made Wenum.
 
 # Tools used in Wenum🌌
 
