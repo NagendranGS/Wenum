@@ -9,9 +9,9 @@ While testing a website our option after Reconnaissance would be Scanning/Enumer
 4. Subfinder - https://github.com/projectdiscovery/subfinder
 5. Nmap - https://nmap.org/
 6. httpx - https://github.com/projectdiscovery/httpx
-8. GAU - https://github.com/lc/gau
-9. WayBackURLs - https://github.com/tomnomnom/waybackurls
-10. ParamSpider - https://github.com/devanshbatham/ParamSpider
+7. GAU - https://github.com/lc/gau
+8. WayBackURLs - https://github.com/tomnomnom/waybackurls
+9. ParamSpider - https://github.com/devanshbatham/ParamSpider
 
 # What does Wenum🌌 do?
 
