@@ -1,8 +1,10 @@
-# Wenum - Website Enumeration 🌌
+# Wenum🐍 - Website Enumeration 
+![image](https://user-images.githubusercontent.com/70428555/127841968-6f21cbbb-fae8-4adf-a6de-eaa6e48181f5.png)
+
 
 While testing a website it is important to perform Scanning/Enumeration. We all may have our own checklist of tools to perform active enumeration on websites. Since time management is a crucial part while Pentesting a website , Wenum provides a hassle free experience. Opening each tool, running enumeration ,saving it in a file and filtering for different types of vulnerability testing made me a bit lazy. All I wish is to enter a domain name and every process involved in enumeration comes handy. Thus I made Wenum.
 
-# Tools used in Wenum🌌
+# Tools used in Wenum🐍
 
 1. Sublist3r - https://github.com/aboul3la/Sublist3r
 3. AssetFinder - https://github.com/tomnomnom/assetfinder
@@ -13,7 +15,7 @@ While testing a website it is important to perform Scanning/Enumeration. We all 
 8. WayBackURLs - https://github.com/tomnomnom/waybackurls
 9. ParamSpider - https://github.com/devanshbatham/ParamSpider
 
-# What does Wenum🌌 do?
+# What does Wenum🐍 do?
 
 Checks whether the given domain is active.
 Nmap for Port Scanning.
@@ -34,7 +36,7 @@ Vulnerable parameters for following bugs are seperated individually based on the
     5. Open Redirection
     
 
-Wenum🌌 asks the user at each stage whether to perform the processes mentioned above or to exit.
+Wenum🐍 asks the user at each stage whether to perform the processes mentioned above or to exit.
 So that one can exit the process if the enumerated results are enough.
 
 
