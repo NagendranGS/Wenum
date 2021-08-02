@@ -7,15 +7,19 @@ sleep 2
 clear
 toilet --metal WENUM
 printf "\n"
-
-printf "\e[1;77mTools Used #Sublist3r #AssetFinder #Subfinder \e[0m \n"
 echo "$(date '+%D %T' | toilet -f term -F border --gay)"
 
 
 printf "Enter the domain : "
 read domain_var
 clear
-echo "Enumerating" $domain_var
+echo "Checking if the domain is alive..."
+sleep 1
+
+ping = 'ping -c 1 $domain_var | grep bytes | wc -l'
+if [ $ping > 1 ]; then
+echo "Domain is Alive, Proceeding For Enumeration...!"
+echo "Enumerating $domain_var"
 sleep 1
 clear
 
@@ -149,3 +153,10 @@ printf "\eThank You...\n"
 else
 printf "\eInvalid Option...!\n"
 fi
+
+else
+clear
+echo "Dead Domain, Enter the correct one!"
+exit
+fi
+
