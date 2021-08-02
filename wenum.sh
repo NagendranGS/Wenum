@@ -18,7 +18,15 @@ sleep 1
 
 ping = 'ping -c 1 $domain_var | grep bytes | wc -l'
 if [ $ping > 1 ]; then
-echo "Domain is Alive, Proceeding For Enumeration...!"
+echo "Domain is Alive, Proceeding For Port Scan...!"
+sleep 1
+mkdir ~/results
+figlet NMAP
+nmap -A $domain_var -Pn -o ~/results/nmap
+clear
+echo "Scanned Ports Successfully using Nmap...!"
+sleep 1
+
 echo "Enumerating $domain_var"
 sleep 1
 clear
