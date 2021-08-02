@@ -1,6 +1,6 @@
 #!/bin/sh
 
-toilet --metal  WENUM 
+toilet --metal  WENUM
 printf "                               \e v1.0\n"
 echo "Coded By G S Nagendran"
 sleep 2
@@ -8,7 +8,7 @@ clear
 toilet --metal WENUM
 printf "\n"
 
-printf "\e[1;77m Tools Used #Sublist3r #AssetFinder #Subfinder \e[0m \n"
+printf "\e[1;77mTools Used #Sublist3r #AssetFinder #Subfinder \e[0m \n"
 echo "$(date '+%D %T' | toilet -f term -F border --gay)"
 
 
@@ -86,24 +86,25 @@ clear
 printf "\e[1;77m Enumerated using ParamSpider...\e[0m \n"
 
 cat ~/results/p1.txt ~/results/p2.txt ~/results/p3.txt >> ~/results/pa.txt 
-cat ~/results/pa.txt | sort -u | tee -a ~/results/url.txt
+cat ~/results/pa.txt | sort -u | tee -a ~/results/param.txt
 rm ~/results/p1.txt ~/results/p2.txt ~/results/p3.txt ~/results/pa.txt
+cat ~/results/wb.txt ~/results/gau.txt | sort -u >> ~/results/urls.txt && rm ~/results/wb.txt ~/results/gau.txt
 clear
 printf "\e[1;77mThe URLs Enumerated are stored as ~/results/url.txt \e[0m \n"
 
 elif [ $answer == n ]; 
-then 
-printf "\eThank You...\n"
+then
+printf "\e Thank You...\n"
 exit
 else
 printf "\e Invalid Option...!\n"
 fi
 
 printf "\e[1;77m Do you wish to Filter Parameters for testing (y) or (n): $fpa\n"
-read $fpa
+read fpa
 sleep 1
-if [ $fpa == y ]; 
-then 
+if [ $fpa == y ];
+then
 printf "\e[1;77m Proceeding for Parameter Filtering in 3 seconds...\e[0m \n"
 sleep 3
 clear
@@ -111,34 +112,34 @@ clear
 printf "\e[1;77m Filtering Vulnerable SSRF Parameters...\e[0m \n"
 sleep 1
 mkdir ~/results/Filtered-Parameter
-cat ~/results/url.txt | grep 'dest=\|redirect=\|uri=\|path=\|continue=\|url=\|window=\|next=\|data=\|reference=\|site=\|html=\|val=\|validate=\|domain=\|callback=\|return=\|page=\|view=\|dir=\|show=\|file=\|document=\|folder=\|root=\|path=\|pg=\|style=\|php=\|template=\|php_path=\|doc=\|feed=\|host=\|port=\|to=\|out=\|navigation=\|open=\|result=\|' | tee -a ~/results/Filtered-Parameter/ssrf.txt
+cat ~/results/param.txt | grep 'dest=\|redirect=\|uri=\|path=\|continue=\|url=\|window=\|next=\|data=\|reference=\|site=\|html=\|val=\|validate=\|domain=\|callback=\|return=\|page=\|view=\|dir=\|show=\|file=\|document=\|folder=\|root=\|path=\|pg=\|style=\|php=\|template=\|php_path=\|doc=\|feed=\|host=\|port=\|to=\|out=\|navigation=\|open=\|result=' | tee -a ~/results/Filtered-Parameter/ssrf.txt
 clear
 echo "SSRF parameter enumeration done"
 sleep 1
 
 printf "\e[1;77m Filtering Vulnerable Open-Redirect Parameters...\e[0m \n"
 sleep 1
-cat ~/results/url.txt | grep 'next=\|url=\|target=\|rurl=\|dest=\|destination=\|redir=\|redirect_uri=\|redirect_url=\|redirect=\|redirect\|redirect.cgi?\|out/\|out?\|view=\|login?to=\|image_url=\|go=\|return\|returnTo=\|checkout_url=\|continue=\|return_path=\|' |  tee  -a ~/results/Filtered-Parameter/openredirect.txt
+cat ~/results/param.txt | grep 'next=\|url=\|target=\|rurl=\|dest=\|destination=\|redir=\|redirect_uri=\|redirect_url=\|redirect=\|redirect\|redirect.cgi?\|out/\|out?\|view=\|login?to=\|image_url=\|go=\|return\|returnTo=\|checkout_url=\|continue=\|return_path=' |  tee  -a ~/results/Filtered-Parameter/openredirect.txt
 clear
 echo "Open Redirect Parameter Enumeration done"
 sleep 1
 
 printf "\e[1;77m Filtering Vulnerable SQLi Parameters...\e[0m \n"
 sleep 1
-cat ~/results/url.txt | grep 'id=\|page=\|dir=\|search=\|category=\|class=\|file=\|url=\|news=\|item=\|menu=\|lang=\|name=\|ref=\|title=\|view=\|topic=\|thread=\|type=\|date=\|form=\|nav=\|main=\|nav=\|region\|' | tee -a ~/results/Filtered-Parameter/sqli.txt
+cat ~/results/param.txt | grep 'id=\|page=\|dir=\|search=\|category=\|class=\|file=\|url=\|news=\|item=\|menu=\|lang=\|name=\|ref=\|title=\|view=\|topic=\|thread=\|type=\|date=\|form=\|nav=\|main=\|nav=\|region=' | tee -a ~/results/Filtered-Parameter/sqli.txt
 clear
 echo "SQLi Parameter Enumeration done"
 sleep 1
 
 printf "\e[1;77m Filtering Vulnerable XSS Parameters...\e[0m \n"
 sleep 1
-cat ~/results/url.txt | grep 'q=\|s=\|search=\|id=\|lang=\|keyword=\|query=\|page=\|keywords=\|year=\|view=\|email=\|type=\|name=\|p=\|month=\|immagine=\|list_type=\|url=\|terms=\|categoryid=\|key=\|l=\|begindate=\|enddate=\|' | grep ~/results/Filtered-Parameter/xss.txt
+cat ~/results/param.txt | grep 'q=\|s=\|search=\|id=\|lang=\|keyword=\|query=\|page=\|keywords=\|year=\|view=\|email=\|type=\|name=\|p=\|month=\|immagine=\|list_type=\|url=\|terms=\|categoryid=\|key=\|l=\|begindate=\|enddate=' | grep ~/results/Filtered-Parameter/xss.txt
 echo "XSS Parameter Enumeration done"
 sleep 1
 
 printf "\e[1;77m Filtering Vulnerable RCE(GET Bases) Parameters...\e[0m \n"
 sleep 1
-cat ~/results/url.txt | grep 'cmd=\|exec=\|command=\|execute=\|ping=\|query=\|jump=\|code=\|reg=\|do=\|func=\|arg=\|option=\|load=\|process=\|step=\|read=\|function=\|req=\|feature=\|exe=\|module=\|payload=\|run=\|print=\|' | tee -a ~/results/Filtered-Parameter/rce.txt
+cat ~/results/param.txt | grep 'cmd=\|exec=\|command=\|execute=\|ping=\|query=\|jump=\|code=\|reg=\|do=\|func=\|arg=\|option=\|load=\|process=\|step=\|read=\|function=\|req=\|feature=\|exe=\|module=\|payload=\|run=\|print=' | tee -a ~/results/Filtered-Parameter/rce.txt
 echo "RCE(GET Based) Parameter Enumeration done"
 sleep 1
 
