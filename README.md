@@ -15,11 +15,11 @@ While testing a website it is important to perform Scanning/Enumeration. We all 
 
 # What does Wenum🌌 do?
 
-Checks whether the given domain is active
-Nmap for Port Scanning
-Subdomains are enumerated
+Checks whether the given domain is active.
+Nmap for Port Scanning.
+Subdomains are enumerated.
 Subdomains are filtered based on status codes.
-Dead Subdomains are saved for Subdomain Takeover
+Dead Subdomains are saved for Subdomain Takeover.
 Alive Subdomains are sent for URL and Directory enumeration.
 URLs containing parameters are seperated.
 
