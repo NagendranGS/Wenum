@@ -14,6 +14,7 @@ While testing a website it is important to perform Scanning/Enumeration. We all 
 7. GAU - https://github.com/lc/gau
 8. WayBackURLs - https://github.com/tomnomnom/waybackurls
 9. ParamSpider - https://github.com/devanshbatham/ParamSpider
+10. Amass - https://github.com/OWASP/Amass
 
 # What does Wenum🐍 do?
 
