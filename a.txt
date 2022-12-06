@@ -1,0 +1,78 @@
+Recon   
+ Sublist3r - Fast subdomains enumeration tool for penetration testers
+    Amass - In-depth Attack Surface Mapping and Asset Discovery
+    massdns - A high-performance DNS stub resolver for bulk lookups and reconnaissance (subdomain enumeration)
+    Findomain - The fastest and cross-platform subdomain enumerator, do not waste your time.
+Sudomy - Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance (recon) for bug hunting / pentesting
+chaos-client - Go client to communicate with Chaos DNS API.
+domained - Multi Tool Subdomain Enumeration
+bugcrowd-levelup-subdomain-enumeration - This repository contains all the material from the talk "Esoteric sub-domain enumeration techniques" given at Bugcrowd LevelUp 2017 virtual conference
+shuffledns - shuffleDNS is a wrapper around massdns written in go that allows you to enumerate valid subdomains using active bruteforce as well as resolve subdomains with wildcard handling and easy input-output…
+
+
+
+censys-subdomain-finder - Perform subdomain enumeration using the certificate transparency logs from Censys.
+Turbolist3r - Subdomain enumeration tool with analysis features for discovered domains
+censys-enumeration - A script to extract subdomains/emails for a given domain using SSL/TLS certificate dataset on Censys
+tugarecon - Fast subdomains enumeration tool for penetration testers.
+as3nt - Another Subdomain ENumeration Tool
+Subra - A Web-UI for subdomain enumeration (subfinder)
+Substr3am - Passive reconnaissance/enumeration of interesting targets by watching for SSL certificates being issued
+domain - enumall.py Setup script for Regon-ng
+altdns - Generates permutations, alterations and mutations of subdomains and then resolves them
+brutesubs - An automation framework for running multiple open sourced subdomain bruteforcing tools (in parallel) using your own wordlists via Docker Compose
+dns-parallel-prober - his is a parallelised domain name prober to find as many subdomains of a given domain as fast as possible.
+dnscan - dnscan is a python wordlist-based DNS subdomain scanner.
+knock - Knockpy is a python tool designed to enumerate subdomains on a target domain through a wordlist.
+hakrevdns - Small, fast tool for performing reverse DNS lookups en masse.
+dnsx - Dnsx is a fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers.
+subfinder - Subfinder is a subdomain discovery tool that discovers valid subdomains for websites.
+assetfinder - Find domains and subdomains related to a given domain
+crtndstry - Yet another subdomain finder
+VHostScan - A virtual host scanner that performs reverse lookups
+scilla - Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration
+sub3suite - A research-grade suite of tools for subdomain enumeration, intelligence gathering and attack surface mapping.
+Content Discovery
+
+    gobuster - Directory/File, DNS and VHost busting tool written in Go
+    recursebuster - rapid content discovery tool for recursively querying webservers, handy in pentesting and web application assessments
+    feroxbuster - A fast, simple, recursive content discovery tool written in Rust.
+    dirsearch - Web path scanner
+    dirsearch - A Go implementation of dirsearch.
+    filebuster - An extremely fast and flexible web fuzzer
+    dirstalk - Modern alternative to dirbuster/dirb
+    dirbuster-ng - dirbuster-ng is C CLI implementation of the Java dirbuster tool
+    gospider - Gospider - Fast web spider written in Go
+    hakrawler - Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application
+    crawley - fast, feature-rich unix-way web scraper/crawler written in Golang.
+Links
+    LinkFinder - A python script that finds endpoints in JavaScript files
+    JS-Scan - a .js scanner, built in php. designed to scrape urls and other info
+    LinksDumper - Extract (links/possible endpoints) from responses & filter them via decoding/sorting
+    GoLinkFinder - A fast and minimal JS endpoint extractor
+    BurpJSLinkFinder - Burp Extension for a passive scanning JS files for endpoint links.
+    urlgrab - A golang utility to spider through a website searching for additional links.
+    waybackurls - Fetch all the URLs that the Wayback Machine knows about for a domain
+    gau - Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl.
+    getJS - A tool to fastly get all javascript sources/files
+    linx - Reveals invisible links within JavaScript files
+
+     
+
+Parameters
+
+    parameth - This tool can be used to brute discover GET and POST parameters
+    param-miner - This extension identifies hidden, unlinked parameters. It's particularly useful for finding web cache poisoning vulnerabilities.
+    ParamPamPam - This tool for brute discover GET and POST parameters.
+    Arjun - HTTP parameter discovery suite.
+    ParamSpider - Mining parameters from dark corners of Web Archives
+Fuzzing
+    wfuzz - Web application fuzzer
+    ffuf - Fast web fuzzer written in Go
+    fuzzdb - Dictionary of attack patterns and primitives for black-box application fault injection and resource discovery.
+    IntruderPayloads - A collection of Burpsuite Intruder payloads, BurpBounty payloads, fuzz lists, malicious file uploads and web pentesting methodologies and checklists.
+    fuzz.txt - Potentially dangerous files
+    fuzzilli - A JavaScript Engine Fuzzer
+    fuzzapi - Fuzzapi is a tool used for REST API pentesting and uses API_Fuzzer gem
+    qsfuzz - qsfuzz (Query String Fuzz) allows you to build your own rules to fuzz query strings and easily identify vulnerabilities.
+    vaf - very advanced (web) fuzzer written in Nim.
