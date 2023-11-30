@@ -34,8 +34,7 @@ Vulnerable parameters for following bugs are seperated individually based on the
     2. Server Side Request Forgery (SSRF)
     2. SQL Injection 
     3. OS Command Injection
-    4. Remote Code Execution (RCE)
-    5. Open Redirection
+    4. Open Redirection
     
 
 Wenum🐍 asks the user at each stage whether to perform the processes mentioned above or to exit.
