@@ -18,21 +18,21 @@ While testing a website it is important to perform Scanning/Enumeration. We all 
 
 The tool performs a comprehensive security analysis on the specified domain, with features including:
 
-Domain Status Verification: It checks if the domain is active before proceeding with further analysis.
-Port Scanning with Nmap: Conducts a detailed port scan to identify open ports and associated services.
-Subdomain Enumeration: Utilizes multiple tools to enumerate subdomains, expanding the scope of analysis.
-Status Code Filtering: Filters subdomains by HTTP status codes to differentiate between active and inactive ones.
-Subdomain Classification:
-Saves dead subdomains for potential Subdomain Takeover analysis.
-Routes alive subdomains for detailed URL and Directory enumeration.
-URL Parameter Separation: Isolates URLs with parameters for a focused vulnerability scan.
-Vulnerability-Specific Parameter Identification: Parameters are categorized based on vulnerability types they might expose, including:
+- Domain Status Verification: It checks if the domain is active before proceeding with further analysis.
+- Port Scanning with Nmap: Conducts a detailed port scan to identify open ports and associated services.
+- Subdomain Enumeration: Utilizes multiple tools to enumerate subdomains, expanding the scope of analysis.
+- Status Code Filtering: Filters subdomains by HTTP status codes to differentiate between active and inactive ones.
+- Subdomain Classification:
+  Saves dead subdomains for potential Subdomain Takeover analysis.
+  Routes alive subdomains for detailed URL and Directory enumeration.
+- URL Parameter Separation: Isolates URLs with parameters for a focused vulnerability scan.
+- Vulnerability-Specific Parameter Identification: Parameters are categorized based on vulnerability types they might expose, including:
 
     1. Cross Site Scripting (XSS)
     2. Server Side Request Forgery (SSRF)
     2. SQL Injection 
     3. OS Command Injection
-    4. Open Redirection
+    4. Open Redirection 
     
 
 Wenum🐍 asks the user at each stage whether to perform the processes mentioned above or to exit.
