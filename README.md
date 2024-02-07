@@ -16,16 +16,19 @@ While testing a website it is important to perform Scanning/Enumeration. We all 
 
 # What does Wenum🐍 do?
 
-Checks whether the given domain is active.
-Nmap for Port Scanning.
-Subdomains are enumerated.
-Subdomains are filtered based on status codes.
-Dead Subdomains are saved for Subdomain Takeover.
-Alive Subdomains are sent for URL and Directory enumeration.
-URLs containing parameters are seperated.
+The tool performs a comprehensive security analysis on the specified domain, with features including:
 
 
-Vulnerable parameters for following bugs are seperated individually based on their names
+This update enhances the tool's efficiency in identifying and categorizing potential vulnerabilities, streamlining the enumeration phase of web application security testing.
+Domain Status Verification: It checks if the domain is active before proceeding with further analysis.
+Port Scanning with Nmap: Conducts a detailed port scan to identify open ports and associated services.
+Subdomain Enumeration: Utilizes multiple tools to enumerate subdomains, expanding the scope of analysis.
+Status Code Filtering: Filters subdomains by HTTP status codes to differentiate between active and inactive ones.
+Subdomain Classification:
+Saves dead subdomains for potential Subdomain Takeover analysis.
+Routes alive subdomains for detailed URL and Directory enumeration.
+URL Parameter Separation: Isolates URLs with parameters for a focused vulnerability scan.
+Vulnerability-Specific Parameter Identification: Parameters are categorized based on vulnerability types they might expose, including:
 
     1. Cross Site Scripting (XSS)
     2. Server Side Request Forgery (SSRF)
