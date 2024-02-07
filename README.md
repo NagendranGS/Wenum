@@ -18,8 +18,6 @@ While testing a website it is important to perform Scanning/Enumeration. We all 
 
 The tool performs a comprehensive security analysis on the specified domain, with features including:
 
-
-This update enhances the tool's efficiency in identifying and categorizing potential vulnerabilities, streamlining the enumeration phase of web application security testing.
 Domain Status Verification: It checks if the domain is active before proceeding with further analysis.
 Port Scanning with Nmap: Conducts a detailed port scan to identify open ports and associated services.
 Subdomain Enumeration: Utilizes multiple tools to enumerate subdomains, expanding the scope of analysis.
